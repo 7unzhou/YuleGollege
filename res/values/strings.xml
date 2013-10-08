@@ -1,0 +1,28 @@
+<resources>
+
+    <string name="app_name">YuleCollege</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">MainActivity</string>
+
+    <!-- common model -->
+    <string name="no_network_connection">请检查您的网络</string>
+    <string name="network_notconnection">网络未连接</string>
+    <string name="http_error">服务器异常</string>
+    <string name="http_nologin">用户未登录</string>
+    <string name="http_nodata">返回数据为空</string>
+
+    <!-- dialog -->
+    <string name="dialog_confirm">确 定</string>
+    <string name="dialog_cancel">取 消</string>
+
+    <!-- Title for error alert when a video cannot be played.  it can be used by any app. -->
+    <string name="VideoView_error_title">Cannot play video</string>
+    <!-- Text for error alert when a video container is not valid for progressive download/playback. -->
+    <string name="VideoView_error_text_invalid_progressive_playback">Sorry, this video is not valid for streaming to this device.</string>
+    <!-- Text for error alert when a video cannot be played. it can be used by any app. -->
+    <string name="VideoView_error_text_unknown">Sorry, this video cannot be played.</string>
+    <!-- Button to close error alert when a video cannot be played -->
+    <string name="VideoView_error_button">OK</string>
+
+</resources>

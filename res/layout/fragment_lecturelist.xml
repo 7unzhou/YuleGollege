@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <com.devsmart.android.ui.HorizontalListView
+        android:id="@+id/itemlistview"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/red" />
+
+    <GridView
+        android:id="@+id/gridView"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/itemlistview"
+        android:columnWidth="@dimen/image_thumbnail_size"
+        android:horizontalSpacing="4px"
+        android:listSelector="@color/transparent"
+        android:numColumns="3"
+        android:padding="10px"
+        android:stretchMode="columnWidth"
+        android:verticalSpacing="5px" >
+    </GridView>
+
+</RelativeLayout>
